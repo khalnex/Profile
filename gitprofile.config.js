@@ -30,7 +30,7 @@ const config = {
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://1drv.ms/b/s!ArX0V4KqjQO0g7x5Kh7HSmArczjbiA?e=vzaGTm', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'SQL',
@@ -41,19 +41,40 @@ const config = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'PFF',
+      position: 'Data Analyst',
+      from: 'May 2023',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.pff.com',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'Springboard',
+      position: 'Data Analytics Fellow',
+      from: 'April 2023',
+      to: 'August 2023',
+      companyLink: 'https://www.springboard.com',
+    },    
+    {
+      company: 'AECOM',
+      position: 'Environmental Planner',
+      from: 'April 2020',
+      to: 'August 2020',
+      companyLink: 'https://aecom.com',
     },
+    {
+      company: 'TD Merchant Services',
+      position: 'On-site Technician',
+      from: 'November 2019',
+      to: 'April 2020',
+      companyLink: 'https://www.td.com/ca/en/business-banking/small-business/payment-options/processing-solutions',
+    },
+    {
+      company: 'Brock University',
+      position: 'Hydrology Research Intern',
+      from: 'May 2018',
+      to: 'September 2018',
+      companyLink: 'https://brocku.ca',
+    },    
   ],
   /* certifications: [
     {
